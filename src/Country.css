@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fenix&display=swap');
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-family: 'Fenix', serif;
+    margin: 2% 0;
+    border-radius: 3rem;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    outline: none;
+    /* width: 20vw; */
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    color: #c3073f;
+}
+
+.other-info {
+    display: flex;
+    border-top: 0.1rem solid rgb(179, 164, 164);
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 1%;
+}
+
+.head {
+    font-family: 'Lora', serif;
+    font-size: 0.9rem;
+}
+
+.tail {
+    font-family: 'Exo', sans-serif;
+}
+
+.population {
+    flex: 1;
+}
+
+.currency {
+    padding-left: 2%;
+    flex: 0;
+}
+
+.flag img {
+    width: 20vw;
+    height: 22vh;
+    border-radius: 3rem;
+    padding: 1%;
+    border: 0.1rem solid black;
+}
+
+.name {
+    font-size: 0.8rem;
+    text-align: center;
+    height: 5vh;
+    /* overflow-x: scroll; */
+    /* overflow-wrap: break-word; */
+    /* word-wrap: break-word; */
+}
+
+.name h1 {
+    /* overflow-x: scroll; */
+    /* overflow: scroll */
+}
+
+.capital {
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+.other-info {}
